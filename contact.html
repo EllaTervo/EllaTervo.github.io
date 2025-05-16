@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ota yhteyttä PetPalsiin!">
+  <title>PetPals - Yhteystiedot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PetPals</h1>
+    <nav>
+      <ul>
+        <li><a href="profiles.html">Profiilit</a></li>
+        <li><a href="playdates.html">Leikkitreffit</a></li>
+        <li><a href="contact.html" id="valittu">Yhteystiedot</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Ota yhteyttä</h2>
+      <p>Haluatko kysyä jotain tai antaa palautetta? Täytä lomake tai lähetä meille sähköpostia: <a href="mailto:info@petpals.fi">info@petpals.fi</a></p>
+      <form action="#" method="post">
+        <label for="name">Nimi:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Viesti:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Lähetä</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 PetPals</p>
+  </footer>
+</body>
+</html>
+
+
